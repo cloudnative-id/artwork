@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <!--Inspired by: https://codepen.io/adamrifai/pen/MwZENr-->
+        <link href="style.css" rel="stylesheet" />
+        <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&sensor=false"></script>
+        <script>
+            const _location='LOCATION';
+        </script>
+    </head>
+    <body>
+        <!-- The element that will contain our Google Map. This is used in both the Javascript and CSS above. -->
+        <div id="map"></div>
+        <img id="overlay" src="gradient.png" />
+        <img id="static" />
+
+        <div id="title">JAKARTA<br>KUBERNETES<br>MEETUP #11</div>
+        <div id="time-location">21 Nov 2019 | 19:09 WIB | @Microsoft Office</div>
+        <div id="meetup-link">bit.ly/jk8s-nov19</div>
+
+        <img id="speaker-1" src="photo1.png" />
+        <div id="name-1">Acep Gorbacep</div>
+        <div id="role-1">Engineer @Persib</div>
+        <div id="title-1">Kubernetes is cool<br>and awesome</div>
+        
+        <img id="speaker-2" src="photo2.png" />
+        <div id="name-2">Iwa Kartiwa</div>
+        <div id="role-2">Engineer @NuAing</div>
+        <div id="title-2">Kubernetes is cool<br>and awesome</div>
+
+        <div id="sponsor">Sponsored by</div>
+        <img id="sponsor-logo" src="sponsor.png" />
+
+        <script src="places.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

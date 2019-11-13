@@ -1,0 +1,157 @@
+.gmnoprint{
+    display: none!important;
+}
+a img{
+    display: none!important;
+}
+button {
+    display: none!important;
+}
+body{
+    margin: 0px;
+    pointer-events: none!important;
+}
+#map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    opacity: 0.95;
+}
+#static{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+#title{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    font-size: 180;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: white;
+    z-index: 30;
+    white-space: nowrap;
+    line-height: 190px;
+}
+#time-location{
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 50px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: bold;
+    z-index: 30;
+}
+#meetup-link{
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 50px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: white;
+    z-index: 30;
+}
+#speaker-1{
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 50px;
+    width: 225px;
+    height: 300px;
+    font-size: 60;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 30;
+}
+#name-1{
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 300px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: white;
+    z-index: 30;
+}
+#role-1{
+    position: absolute;
+    margin-top: 1170px;
+    margin-left: 300px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 30;
+}
+#title-1{
+    position: absolute;
+    margin-top: 1240px;
+    margin-left: 300px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 30;
+}
+#speaker-2{
+    position: absolute;
+    margin-top: 1450px;
+    margin-left: 50px;
+    width: 225px;
+    height: 300px;
+    font-size: 60;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 30;
+}
+#name-2{
+    position: absolute;
+    margin-top: 1450px;
+    margin-left: 300px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: white;
+    z-index: 30;
+}
+#role-2{
+    position: absolute;
+    margin-top: 1520px;
+    margin-left: 300px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 30;
+}
+#title-2{
+    position: absolute;
+    margin-top: 1590px;
+    margin-left: 300px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 30;
+}
+#sponsor{
+    position: absolute;
+    margin-top: 1800px;
+    margin-left: 850px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 30;
+}
+#sponsor-logo{
+    position: absolute;
+    margin-top: 1870px;
+    margin-left: 850px;
+    width: 350px;
+    z-index: 30;
+}
