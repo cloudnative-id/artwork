@@ -1,6 +1,6 @@
-## Generator for backgrounds for slides
+## Generator for meetup poster
 
-With generator you can create background images for use in Google Slides.
+With generator you can create meetup poster to be posted in social media and telegram groups.
 The following uses Google Maps to generate a picture of the city's roads, and add
 a CNCF overlay.
 
