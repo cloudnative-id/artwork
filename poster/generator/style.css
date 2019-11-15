@@ -29,6 +29,22 @@ body{
     width: 100%;
     display: none;
 }
+#sponsor{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 900px;
+    font-size: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 30;
+}
+#sponsor-logo{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 950px;
+    width: 350px;
+    z-index: 30;
+}
 #title{
     position: absolute;
     margin-top: 250px;
@@ -137,21 +153,5 @@ body{
     font-size: 50;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
-    z-index: 30;
-}
-#sponsor{
-    position: absolute;
-    margin-top: 1800px;
-    margin-left: 850px;
-    font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    z-index: 30;
-}
-#sponsor-logo{
-    position: absolute;
-    margin-top: 1870px;
-    margin-left: 850px;
-    width: 350px;
     z-index: 30;
 }
