@@ -34,124 +34,123 @@ body{
     margin-top: 50px;
     margin-left: 900px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     color: white;
     z-index: 30;
 }
 #sponsor-logo{
     position: absolute;
-    margin-top: 110px;
+    margin-top: 20px;
     margin-left: 900px;
     width: 450px;
     z-index: 30;
 }
 #title{
     position: absolute;
-    margin-top: 250px;
+    margin-top: 450px;
     margin-left: 50px;
-    font-size: 180;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80;
+    font-family: 'Visby CF Bold', sans-serif;
     font-weight: bold;
     color: white;
     z-index: 30;
     white-space: nowrap;
-    line-height: 190px;
 }
 #time-location{
     position: absolute;
-    margin-top: 850px;
+    margin-top: 650px;
     margin-left: 50px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     color: white;
     font-weight: bold;
     z-index: 30;
 }
 #meetup-link{
     position: absolute;
-    margin-top: 920px;
+    margin-top: 720px;
     margin-left: 50px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     font-weight: bold;
     color: white;
     z-index: 30;
 }
 #speaker-1{
     position: absolute;
-    margin-top: 1100px;
+    margin-top: 900px;
     margin-left: 50px;
     width: 225px;
-    height: 300px;
+    height: 225px;
     font-size: 60;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     color: white;
     z-index: 30;
 }
 #name-1{
     position: absolute;
-    margin-top: 1100px;
+    margin-top: 900px;
     margin-left: 300px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     font-weight: bold;
     color: white;
     z-index: 30;
 }
 #role-1{
     position: absolute;
-    margin-top: 1170px;
+    margin-top: 970px;
     margin-left: 300px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     color: white;
     z-index: 30;
 }
 #title-1{
     position: absolute;
-    margin-top: 1240px;
+    margin-top: 1040px;
     margin-left: 300px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Bold', sans-serif;
     color: white;
     z-index: 30;
 }
 #speaker-2{
     position: absolute;
-    margin-top: 1450px;
+    margin-top: 1250px;
     margin-left: 50px;
     width: 225px;
-    height: 300px;
+    height: 225px;
     font-size: 60;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     color: white;
     z-index: 30;
 }
 #name-2{
     position: absolute;
-    margin-top: 1450px;
+    margin-top: 1250px;
     margin-left: 300px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     font-weight: bold;
     color: white;
     z-index: 30;
 }
 #role-2{
     position: absolute;
-    margin-top: 1520px;
+    margin-top: 1320px;
     margin-left: 300px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Medium', sans-serif;
     color: white;
     z-index: 30;
 }
 #title-2{
     position: absolute;
-    margin-top: 1590px;
+    margin-top: 1390px;
     margin-left: 300px;
     font-size: 50;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Visby CF Bold', sans-serif;
     color: white;
     z-index: 30;
 }
