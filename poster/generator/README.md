@@ -13,6 +13,7 @@ Well-known coordinates for the different cities we operate in are kept in `place
    2. Go to [Credentials](https://console.cloud.google.com/apis/credentials) -> **Create Credentials** -> **API Key**, and you will get a key to use
 2. Put the API key in the file `.gmap_api_key` in this folder
 3. Update `places.js`; add the coordinates for the location you want/need
-4. Run `make LOCATION={your-place}`, where `{your-place}` is the place you added. Sample value: `jakarta`
-5. `screenshot.png` will be generated. Move that to `poster/{your-place}.png`
-6. Send a PR with the change! We want to collect all backgrounds in the Git repo for wider re-use
+4. Set fonts on `fonts/` directory
+5. Run `make LOCATION={your-place}`, where `{your-place}` is the place you added. Sample value: `jakarta`
+6. `screenshot.png` will be generated. Move that to `poster/{your-place}.png`
+7. Send a PR with the change! We want to collect all backgrounds in the Git repo for wider re-use

@@ -1,8 +1,8 @@
 // Define here all places
 var places = {
   jakarta: {
-    lat: -6.2088,
-    lng: 106.8456
+    lat: -6.261501,
+    lng: 106.823839
   },
   bandung: {
     lat: -6.9175,
