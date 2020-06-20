@@ -15,10 +15,5 @@ RUN groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
 
 RUN mkdir /.npm && chown -R 501:20 /.npm
 
-COPY fonts/bold.ttf /usr/share/fonts/fonts/bold.ttf
-COPY fonts/medium.ttf /usr/share/fonts/fonts/medium.ttf
-
-RUN fc-cache -fv && fc-list
-
 # Run everything after as non-privileged user.
 USER pptruser
