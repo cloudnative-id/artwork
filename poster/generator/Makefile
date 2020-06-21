@@ -1,6 +1,7 @@
 API_KEY?=$(shell cat .gmap_api_key)
 # Available options can be found in background/places.js
 LOCATION?=
+NUMBER?=
 
 all:
 	sed -e "s/API_KEY/${API_KEY}/" -e "s/LOCATION/${LOCATION}/" index.html.tmpl > index.html
@@ -23,3 +24,5 @@ all:
 		./capture.js"
 	docker rm -f tmp_bg_webserver
 	rm index.html
+	mkdir -p ../${LOCATION}
+	mv screenshot.png ../${LOCATION}/${LOCATION}-${NUMBER}.png
