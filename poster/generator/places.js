@@ -11,5 +11,9 @@ var places = {
   yogyakarta: {
     lat: -7.7956,
     lng: 110.3695
-  }
+  },
+  malang: {
+    lat: 	-7.9839,
+    lng: 112.6213
+  },
 };

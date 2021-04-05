@@ -155,3 +155,14 @@ body{
     color: white;
     z-index: 30;
 }
+
+#hosted-by{
+    position: absolute;
+    margin-top: 1550px;
+    margin-left: 50px;
+    font-size: 50;
+    font-family: 'Visby CF Medium', sans-serif;
+    color: white;
+    font-weight: bold;
+    z-index: 30;
+}

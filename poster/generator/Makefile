@@ -1,10 +1,15 @@
 API_KEY?=$(shell cat .gmap_api_key)
 # Available options can be found in background/places.js
+
+DAY?=
+MONTH?=
+YEAR?=
+
 LOCATION?=
-NUMBER?=
+ORGANIZER?=
 
 all:
-	sed -e "s/API_KEY/${API_KEY}/" -e "s/LOCATION/${LOCATION}/" index.html.tmpl > index.html
+	sed -e "s/API_KEY/${API_KEY}/" -e "s/LOCATION/${LOCATION}/" -e "s/ORGANIZER/${ORGANIZER}/" -e "s/DAY/${DAY}/" -e "s/MONTH/${MONTH}/" -e "s/YEAR/${YEAR}/" index.html.tmpl > index.html
 	docker rm -f tmp_bg_webserver || echo "ok"
 	docker run -d \
 		--name tmp_bg_webserver \
@@ -25,4 +30,4 @@ all:
 	docker rm -f tmp_bg_webserver
 	rm index.html
 	mkdir -p ../${LOCATION}
-	mv screenshot.png ../${LOCATION}/${LOCATION}-${NUMBER}.png
+	mv screenshot.png ../${LOCATION}/${MONTH}-${YEAR}.png
