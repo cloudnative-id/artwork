@@ -13,6 +13,6 @@ Well-known coordinates for the different cities we operate in are kept in `place
    2. Go to [Credentials](https://console.cloud.google.com/apis/credentials) -> **Create Credentials** -> **API Key**, and you will get a key to use
 2. Put the API key in the file `.gmap_api_key` in this folder
 3. Update `places.js`; add the coordinates for the location you want/need
-4. Run `make LOCATION={your-place} NUMBER={your-meetup-number} ORGANIZER={your-organizer}`, where `{your-place}` is the place you added. Sample value: `jakarta`
-5. `{your-place}-{your-meetup-number}.png` will be generated in `../poster/{your-place}/{your-place}-{your-meetup-number}.png`. Move that to `poster/{your-place}.png`
+4. Run `make LOCATION={your-place} ORGANIZER={your-organizer} DAY={meetup-day} MONTH={meetup-month} YEAR={meetup-year}`, where `{your-place}` is the place you added. Sample value: `jakarta`
+5. `{your-place}-{your-meetup-number}.png` will be generated in `../poster/{your-place}/{}.png`. Move that to `poster/{your-place}{meetup-day}-{meetup-month}-{meetup-year}.png`
 6. Send a PR with the change! We want to collect all backgrounds in the Git repo for wider re-use

@@ -30,4 +30,4 @@ all:
 	docker rm -f tmp_bg_webserver
 	rm index.html
 	mkdir -p ../${LOCATION}
-	mv screenshot.png ../${LOCATION}/${MONTH}-${YEAR}.png
+	mv screenshot.png ../${LOCATION}/${DAY}-${MONTH}-${YEAR}.png
